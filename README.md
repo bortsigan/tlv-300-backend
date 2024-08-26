@@ -11,9 +11,10 @@ cd tlv-300-backend
 # copy .env.example
 cp .env.example .env
 
-# add a api_key from https://whois.whoisxmlapi.com/
+# 
+# create an account from from https://whois.whoisxmlapi.com/ and get the provided api key
 # for example
-WHOIS_API_KEY=at_tyY5hoVQ9CIaJnkCoyEQfQt3YxNsn
+WHOIS_API_KEY=at_xxxxxxxxx
 
 # install packages
 composer install 
